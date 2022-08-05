@@ -58,7 +58,7 @@ const SongList = () => {
         </ul>
     }
     {!visible && <p>The songs are hidden</p>}
-        <button onClick={toggleVisibility} >{ visible ? "Hide songs" : "Show songs"}</button>
+        <button onClick={toggleVisibility} >{ visible ? "Hide songs  " : " Show songs"}</button>
     </div>
 }
 
